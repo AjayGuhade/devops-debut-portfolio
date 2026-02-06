@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Download } from "lucide-react";
 
 export default function Hero() {
   const [displayText, setDisplayText] = useState("");
@@ -60,6 +60,14 @@ export default function Hero() {
             className="px-8 py-3 border border-primary text-primary rounded-lg font-semibold hover:bg-primary/10 transition-all"
           >
             Get In Touch
+          </a>
+          <a
+            href="/resume.pdf"
+            download
+            className="px-8 py-3 bg-secondary text-foreground rounded-lg font-semibold flex items-center gap-2 hover:bg-secondary/80 transition-all border border-border"
+          >
+            <Download className="w-5 h-5" />
+            Download CV
           </a>
         </div>
 
