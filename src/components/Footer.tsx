@@ -15,7 +15,7 @@ export default function Footer() {
           </div>
 
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            Built with <Heart className="w-4 h-4 text-danger fill-current" /> by Your Name
+            Built with <Heart className="w-4 h-4 text-danger fill-current" /> by Ajay Guhade
           </p>
 
           <p className="text-sm text-muted-foreground">

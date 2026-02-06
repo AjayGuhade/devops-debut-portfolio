@@ -34,7 +34,7 @@ export default function Hero() {
         {/* Main Content */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
           <span className="text-foreground">Hi, I'm </span>
-          <span className="text-gradient">Your Name</span>
+          <span className="text-gradient">Ajay Guhade</span>
         </h1>
 
         <div className="font-mono text-2xl md:text-3xl lg:text-4xl text-muted-foreground mb-8 h-12 animate-fade-in" style={{ animationDelay: "0.4s" }}>
