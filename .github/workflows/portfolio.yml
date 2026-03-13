@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - main
+    workflow-dispatch:
+    
 permissions:
   pages: write
   id-token: write
